@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"name": "root",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.awcache": true,
+			"**/node_modules": true,
+			"package-lock.json": true
+		},
+		"editor.tabSize": 2,
+		"editor.detectIndentation": false,
+		"editor.insertSpaces": false,
+		"files.trimTrailingWhitespace": true,
+		"jest.pathToConfig": "config/jest.config.js",
+		"[typescript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"[javascriptreact]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"[javascript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"[typescriptreact]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		}
+	}
+}
